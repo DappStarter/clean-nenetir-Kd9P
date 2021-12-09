@@ -1,0 +1,29 @@
+{
+    "repository": {},
+    "__outputFolder": null,
+    "blocks": [
+        {
+            "category": "access_control",
+            "name": "core-administrator_role",
+            "parameters": {}
+        },
+        {
+            "category": "access_control",
+            "name": "core-contract_access",
+            "parameters": {}
+        },
+        {
+            "category": "asset_value_tracking",
+            "name": "core-token",
+            "parameters": {
+                "name": "ANTIRUG",
+                "symbol": "ANTRG",
+                "decimals": "18",
+                "supply": "1000000000"
+            }
+        }
+    ],
+    "blockchain": "avalanche",
+    "language": "solidity",
+    "framework": "vanilla"
+}
